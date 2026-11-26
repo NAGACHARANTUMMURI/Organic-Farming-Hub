@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Farming Hub - Sustainable Agriculture Resources</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🌱 Organic Farming Hub</h1>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                    <li><a href="#practices" class="nav-link">Practices</a></li>
+                    <li><a href="#chat" class="nav-link">Chat</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="languageSelect" class="lang-dropdown" title="Select language">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="ta">தமிழ்</option>
+                    <option value="te">తెలుగు</option>
+                    <option value="mr">मराठी</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Cultivating a Sustainable Future</h2>
+            <p class="hero-subtitle">Discover organic farming practices and get expert assistance for your farm</p>
+            <button class="cta-button" id="learnMoreBtn">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">About Organic Farming</h2>
+            <p class="section-text" data-i18n="about_text">Organic farming is a method of crop and livestock production that avoids the use of chemicals or synthetic inputs. It emphasizes sustainable practices that maintain and improve soil health, biodiversity, and ecological balance.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3 data-i18n="benefits_title">Key Benefits</h3>
+                    <ul class="benefits-list">
+                        <li data-i18n="benefit1">Improves soil health</li>
+                        <li data-i18n="benefit2">Enhances biodiversity</li>
+                        <li data-i18n="benefit3">Reduces chemical pollution</li>
+                        <li data-i18n="benefit4">Promotes sustainable practices</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90samVucyBzZXJ2ZXJDb21taWVucyB0eXBlJTNFNSUzQiFuZJ9&w=600&q=80" alt="Organic farm" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="practices" class="section practices-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="practices_title">Organic Farming Practices</h2>
+            <div class="practices-grid">
+                <div class="practice-card">
+                    <div class="practice-icon">🌿</div>
+                    <h3 data-i18n="composting">Composting</h3>
+                    <p data-i18n="composting_text">Transform organic waste into nutrient-rich soil amendments that improve soil structure and fertility naturally.</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">🥕</div>
+                    <h3 data-i18n="crop_rotation">Crop Rotation</h3>
+                    <p data-i18n="crop_rotation_text">Alternate crops strategically to maintain soil nutrients, reduce pest buildup, and improve yield.</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">🐝</div>
+                    <h3 data-i18n="pollinator">Pollinator Support</h3>
+                    <p data-i18n="pollinator_text">Create habitats for beneficial insects and pollinators to enhance crop pollination naturally.</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">🌾</div>
+                    <h3 data-i18n="cover_crops">Cover Crops</h3>
+                    <p data-i18n="cover_crops_text">Plant cover crops during off-seasons to prevent soil erosion and add organic matter.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="section resources-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="resources_title">Learning Resources</h2>
+            <p class="section-subtitle" data-i18n="resources_subtitle">Access guides, videos, and expert advice for successful organic farming</p>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3 data-i18n="beginners_guide">Beginner's Guide</h3>
+                    <p data-i18n="beginners_text">Start your organic farming journey with comprehensive beginner resources and step-by-step guides.</p>
+                    <a href="#" class="resource-link" data-i18n="read_more">Read More</a>
+                </div>
+                <div class="resource-card">
+                    <h3 data-i18n="video_library">Video Library</h3>
+                    <p data-i18n="videos_text">Watch expert-led videos on soil management, pest control, and organic crop production techniques.</p>
+                    <a href="#" class="resource-link" data-i18n="view_videos">View Videos</a>
+                </div>
+                <div class="resource-card">
+                    <h3 data-i188n="downloadable_guides">Downloadable Guides</h3>
+                    <p data-i18n="guides_text">PDF guides covering specific topics like organic pest management and soil testing methods.</p>
+                    <a href="#" class="resource-link" data-i18n="download_guides">Download Guides</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chat" class="section chat-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="chat_title">Farmer's Assistant Chat</h2>
+            <p class="section-subtitle" data-i18n="chat_subtitle">Get instant assistance with your organic farming questions</p>
+            <div class="chat-container" id="chatContainer">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        <div class="message-bubble">
+                            <p data-i18n="welcome_message">Hello! Welcome to Organic Farming Hub. How can I help you today?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="userInput" class="chat-input" placeholder="Type your question about organic farming..." data-i18n="chat_placeholder">
+                    <button id="sendButton" class="send-button">
+                        <span>Send</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Organic Farming Hub</h3>
+                    <p data-i18n="footer_desc">Empowering farmers with sustainable agriculture knowledge and support.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="quick_links">Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#practices">Practices</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#chat">Chat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="contact">Contact</h4>
+                    <p>📧 info@organicfarminghub.org</p>
+                    <p>📱 +91 9876543210</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Organic Farming Hub. <span data-i18n="all_rights_reserved">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
